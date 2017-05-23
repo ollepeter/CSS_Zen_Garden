@@ -1,10 +1,151 @@
-/* css Zen Garden default style v1.02 */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
 
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+body {
+	background-color: #484847;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
 
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+abbr {
+	text-decoration: none;
+}
 
+h3 {
+	color: #780707;
+	font-style: italic;
+	line-height: 80%;
+}
 
-/* basic elements */
+p {
+	margin: 5px;
+}
 
+a:link {
+    color: #002966;
+}
+
+a:visited {
+    color: #003300;
+}
+
+a:hover {
+	background-color: #676765;
+}
+
+.page-wrapper {
+	position: relative;
+}
+
+#zen-intro {
+	position: absolute;
+	left: 50%;
+	margin-left: -550px;
+	margin-bottom: 50px;
+	top: 50px;
+	width: 900px;
+}
+
+#zen-intro header {
+	background-color: #5a5a58;
+	border: 3px solid black;
+	border-radius: 12px;
+	line-height: 20%;
+	text-align: right;
+	font-style: italic;
+	color: #780707;
+}
+
+#zen-intro header h1 {
+	margin-top: 30px;
+	padding-right: 20px;
+	font-size: 3em;
+	text-transform: lowercase;
+}
+
+#zen-intro header h2 {
+	padding-right: 20px;
+	font-size: 1.5em;
+}
+
+#zen-summary {
+	position: relative;
+	left: 50%;
+	margin-left: -450px;
+	width: 900px;
+	font-size: 15px;
+}
+
+#zen-preamble {
+	position: relative;
+	top: 15px;
+	padding-left: 15px;
+	padding-right:15px;
+	text-align: justify;
+	background-color: #747472;
+	border: 3px solid black;
+	border-radius: 12px;
+}
+
+#zen-supporting {
+	position: absolute;
+	left: 50%;
+	margin-left: -550px;
+	top: 470px;
+	width: 870px;
+	margin-bottom: 100px;
+	background-color: #747472;
+	border: 3px solid black;
+	border-radius: 12px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right:15px;
+	text-align: justify;
+}
+
+.sidebar {
+	position: relative;
+	left: 50%;
+	margin-left: 360px;
+	top: 470px;
+	width: 200px;
+}
+
+.sidebar ul {
+	list-style : none;
+	padding : 0 0 18px 0;
+	margin : 0;
+}
+
+#design-selection, #design-archives, #zen-resources {
+	margin-top: 3px;
+	border: 3px solid black;
+	border-radius: 12px;
+	background-color: #81817e
+}
+
+.sidebar ul li {
+padding : 5px 10px 5px 10px;
+border-bottom : 1px solid #002966;
+margin : 0;
+}
+
+.sidebar ul li a {
+display : inline;
+}
+
+.sidebar .design-selection ul li a {
+display : block;
+}
+
+.sidebar .design-selection ul li a.designer-name, .sidebar ul li a.designer-name {
+display : inline;
+}
+
+footer {
+	margin-top: 10px;
+	background-color: #81817e;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 12px;
+	font-size: 1.2em;
+	word-spacing: 40px
+}
